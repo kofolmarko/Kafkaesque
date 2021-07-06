@@ -1,0 +1,19 @@
+.form-control {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    background-color: rgb(116, 95, 156);
+    color: rgb(190, 197, 202);
+    padding: 0.5em;
+    border-radius: 2px;
+    margin: 5px;
+    outline: none;
+    border-style: none;
+}
+
+#submitBtn {
+    display: none;
+}

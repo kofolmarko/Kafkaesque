@@ -1,0 +1,10 @@
+#postThought {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+#thoughtsList {
+    display: flex;
+    justify-content: center;
+}

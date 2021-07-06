@@ -1,0 +1,15 @@
+{
+  "name": "kafkaesque",
+  "version": "1.0.0",
+  "description": "A quiet space to share your troubles.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "kofolmarko",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.0"
+  }
+}

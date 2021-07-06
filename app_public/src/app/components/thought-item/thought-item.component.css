@@ -1,0 +1,34 @@
+.thought {
+    color: aliceblue;
+    background-color: rgb(118, 86, 170);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+    
+    margin: 1em;
+    padding: 2em;
+
+    border-radius: 5px;
+
+    width: 50%;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.date {
+    display: inline;
+    float: right;
+    margin: 0px;
+}
+
+.thoughtInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+    color: rgb(26, 0, 51);
+}

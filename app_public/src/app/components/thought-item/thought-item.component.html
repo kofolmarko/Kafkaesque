@@ -1,0 +1,9 @@
+<div class="thought">
+    <h3 class="text">
+        {{ thought.text }}
+    </h3>
+    <div class="thoughtInfo">
+        <fa-icon class="deleteBtn" [icon]="faCross" (click)="onDelete(thought)"></fa-icon>
+        <p class="date">{{ thought.date | date:'E, d. M. yyyy | H:mm' }}</p>
+    </div>
+</div>

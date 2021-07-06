@@ -1,0 +1,9 @@
+<app-post-thought id="postThought"
+    (onPostThought)="postThought($event)">
+</app-post-thought>
+
+<app-thought-item id="thoughtsList"
+    *ngFor="let thought of thoughts"
+    [thought]="thought"
+    (onDeleteThought)="deleteThought(thought)">
+</app-thought-item>
